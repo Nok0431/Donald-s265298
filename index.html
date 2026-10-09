@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Student portfolio for Pang Chun Nok, a computing and AI-focused student at The Hang Seng University of Hong Kong."
+    />
+    <title>Pang Chun Nok | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="#main-content" aria-label="Pang Chun Nok home">Pang Chun Nok</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#journey">Journey</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero section: edit the text below to update the main introduction -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Student Portfolio</p>
+            <h1>
+              Hi, I’m <span>Pang Chun Nok</span>
+            </h1>
+            <p class="intro">
+              I’m a student pursuing Computing with a strong interest in Artificial
+              Intelligence and emerging technology. I enjoy learning through hands-on
+              projects, building practical solutions, and improving my ability to solve
+              problems with creativity and logic.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Profile summary card">
+            <div class="profile-avatar" aria-label="Profile avatar">PN</div>
+            <div class="profile-badge">Computing / AI</div>
+            <h2>Student &amp; Tech Enthusiast</h2>
+            <ul>
+              <li>The Hang Seng University of Hong Kong</li>
+              <li>Computing / AI related studies</li>
+              <li>Focused on learning and growth</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section: edit biography, academic interests, and AI motivation here -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Curious about technology and real-world impact</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <p>
+                I am Pang Chun Nok, a student currently studying at The Hang Seng
+                University of Hong Kong. My academic journey is centred around
+                computing, with a growing interest in the practical and innovative side
+                of technology.
+              </p>
+              <p>
+                I enjoy exploring how digital systems can solve everyday problems,
+                improve decision-making, and support smarter experiences through data,
+                logic, and creativity.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <p>
+                My academic interests include computing fundamentals, software
+                development, problem solving, and the design of thoughtful digital
+                experiences. I am especially interested in how technology can be used
+                to make systems more efficient and accessible.
+              </p>
+              <p>
+                Artificial Intelligence is one of the areas that motivates me most,
+                because it combines technical thinking with creativity and meaningful
+                real-world applications. I am eager to keep learning, experimenting, and
+                developing my skills in this field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section: add or edit skill names here -->
+      <section id="skills" class="section soft-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Building a strong foundation</h2>
+          </div>
+
+          <div class="skills-layout">
+            <div class="skills-grid">
+              <article class="skill-card">
+                <div class="skill-icon">PY</div>
+                <h3>Python</h3>
+                <p>Programming, logic, and practical problem solving.</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML &amp; CSS</h3>
+                <p>Creating structured, responsive, and visually polished pages.</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon">AI</div>
+                <h3>Artificial Intelligence</h3>
+                <p>Exploring machine learning concepts and intelligent systems.</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon">PS</div>
+                <h3>Problem Solving</h3>
+                <p>Analysing challenges and turning them into practical solutions.</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon">TW</div>
+                <h3>Teamwork</h3>
+                <p>Collaborating effectively and contributing to shared goals.</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon">CM</div>
+                <h3>Communication</h3>
+                <p>Sharing ideas clearly and working with others professionally.</p>
+              </article>
+            </div>
+
+            <div class="skills-bars" aria-label="Skill progress levels">
+              <div class="skill-bar-item">
+                <div class="label-row">
+                  <span>Python</span>
+                  <span>88%</span>
+                </div>
+                <div class="bar-track"><span style="--level: 88%"></span></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="label-row">
+                  <span>HTML &amp; CSS</span>
+                  <span>81%</span>
+                </div>
+                <div class="bar-track"><span style="--level: 81%"></span></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="label-row">
+                  <span>AI Concepts</span>
+                  <span>76%</span>
+                </div>
+                <div class="bar-track"><span style="--level: 76%"></span></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="label-row">
+                  <span>Problem Solving</span>
+                  <span>84%</span>
+                </div>
+                <div class="bar-track"><span style="--level: 84%"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured project section -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Featured Project</p>
+            <h2>A project focused on clarity and user experience</h2>
+          </div>
+
+          <article class="featured-project">
+            <div class="featured-image" aria-label="Featured project placeholder image">
+              <span>Portfolio</span>
+            </div>
+            <div class="featured-content">
+              <p class="mini-label">Student Showcase</p>
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                This project reflects my interest in building polished, accessible, and
+                user-friendly digital experiences. It brings together design thinking,
+                responsive layout design, and clear communication to present my work in a
+                professional way.
+              </p>
+              <ul>
+                <li>Responsive page design</li>
+                <li>Modern portfolio layout</li>
+                <li>Clear personal branding</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects section: edit project details and descriptions here -->
+      <section id="projects" class="section soft-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Recent and personal work</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image" aria-label="Project placeholder image">
+                <span>Portfolio</span>
+              </div>
+              <div class="project-content">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                  A personal website designed to showcase my background, interests,
+                  skills, and projects in a clean and professional format.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image second" aria-label="Project placeholder image">
+                <span>Python</span>
+              </div>
+              <div class="project-content">
+                <h3>Python Programming Project</h3>
+                <p>
+                  A Python-based project focused on logical problem solving,
+                  automation, and learning practical coding techniques.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image third" aria-label="Project placeholder image">
+                <span>AI</span>
+              </div>
+              <div class="project-content">
+                <h3>AI Application Project</h3>
+                <p>
+                  An AI-related project exploring how intelligent systems can support
+                  decision-making and improve everyday digital experiences.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Learning Journey section -->
+      <section id="journey" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">My Learning Journey</p>
+            <h2>Progress built through curiosity and practice</h2>
+          </div>
+
+          <div class="journey-grid">
+            <article class="journey-card">
+              <span class="journey-step">01</span>
+              <h3>Foundation</h3>
+              <p>
+                I began by strengthening my understanding of programming concepts,
+                logic, and structured thinking through problem-based learning.
+              </p>
+            </article>
+            <article class="journey-card">
+              <span class="journey-step">02</span>
+              <h3>Web Skills</h3>
+              <p>
+                I explored HTML and CSS to create responsive layouts and build digital
+                experiences that are clear, functional, and visually engaging.
+              </p>
+            </article>
+            <article class="journey-card">
+              <span class="journey-step">03</span>
+              <h3>AI Exploration</h3>
+              <p>
+                My interest in Artificial Intelligence grew as I studied its practical
+                applications and how it can be used to solve meaningful problems.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests section: edit your interests here -->
+      <section id="interests" class="section soft-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Interests</p>
+            <h2>Things I enjoy and keep learning</h2>
+          </div>
+
+          <div class="interests-grid">
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">⚙️</span>
+              <h3>Technology</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">🤖</span>
+              <h3>AI</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">🎮</span>
+              <h3>Gaming</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">🏃</span>
+              <h3>Sports</h3>
+            </div>
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">📚</span>
+              <h3>Learning New Skills</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education section: timeline-style academic journey -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Academic background</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Current</span>
+                <h3>The Hang Seng University of Hong Kong</h3>
+                <p>
+                  Student pursuing Computing / Artificial Intelligence related studies,
+                  with a strong interest in practical learning, digital problem solving,
+                  and real-world technology applications.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Course</span>
+                <h3>COM1006 Artificial Intelligence and Its Applications</h3>
+                <p>
+                  A focused study area that strengthens my understanding of AI concepts,
+                  computing fundamentals, and how intelligent systems can contribute to
+                  practical solutions.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section: edit email and GitHub links here -->
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect</h2>
+          </div>
+          <div class="contact-actions" aria-label="Contact links">
+            <a
+              class="button primary"
+              href="mailto:your-email@example.com"
+              aria-label="Email Pang Chun Nok"
+            >
+              Email
+            </a>
+            <a
+              class="button secondary"
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Visit GitHub profile"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Pang Chun Nok</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
